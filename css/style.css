@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    color: wheat;
+    font-size: 33px;
+}
+.an{
+    font-size: 25px;
+    font-weight: bold;
+}
+.aa{
+    margin-left: 13px;
+    transition: 1s;
+    font-size: 23px;
+    font-weight: bold;
+}
+.aa:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.nav-link{
+    color: wheat;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.navbar-toggler{
+    color: wheat;
+    border-color: wheat;
+}
+.ahead{
+    padding-top: 30px;
+    text-align: center;
+    color: wheat;
+}
+.anav{
+    background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.abox{
+    margin-top: 30px;
+}
+.adiv{
+    text-align: center;
+}
+.bdiv{
+    text-align: center;
+}
+.cdiv{
+    text-align: center;
+}
+.ddiv{
+    text-align: center;
+}
+.acard{
+    border: none;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    position: relative;
+    animation-name: mess;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+@keyframes mess{
+    0% {left: -25em;}
+    100%{left: 0;}
+}
+.ccard{
+    border: none;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    position: relative;
+    animation-name: ms;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+@keyframes ms{
+    0% {right: -25em;}
+    100%{right: 0;}
+}
+.bcard{
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+}
+.dcard{
+    border: none;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    position: relative;
+    animation-name: mess;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+@keyframes mess{
+    0% {left: -25em;}
+    100%{left: 0;}
+}
+.bcard img{
+    width: 18em;
+    height: 18em;
+}
+.acard img{
+    width: 18em;
+    height: 18em;
+}
+.ccard img{
+    width: 18em;
+    height: 18em;
+}
+.dcard img{
+    width: 18em;
+    height: 18em;
+}
+.ah5{
+    color: wheat;
+}
+.bh5{
+    color: wheat;
+}
+.ch5{
+    color: wheat;
+}
+.dh5{
+    color: wheat;
+}
+#a19{
+    background: linear-gradient(270deg, rgba(2, 0, .6, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+#a18{
+    background: linear-gradient(90deg, rgba(2, 0, .6, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.brow{
+    margin-top: 9%;
+}
+.k1adiv{
+    margin-top: 10px;
+    text-align: center;
+}
+.k1bdiv{
+    margin-top: 10px;
+    position: relative;
+    animation-name: divs1;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    text-align: center;
+    color: wheat;
+    font-size: 24px;
+    transition: 1s;
+}
+@keyframes divs1{
+    0%{
+     right: -25em;
+    }
+    100%{
+        right: 0;
+    }
+}
+@keyframes divs{
+    0%{
+        left: -30em;
+    }
+    100%{
+        left: 0;
+    }
+}
+.aimg{
+    transition: 1s;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    animation-name: divs;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height:350px;
+}
+.aimg:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.k1bdiv:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.ac{
+    transition: 1s;
+}
+.ac:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
